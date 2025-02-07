@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "BitCracker-BTCFKYEA (criada pelo Sr. Duo)"
 echo "ATENÇÃO: BitCracker-BTCFKYEA é um projeto feito para recuperar sua seed phrase bitcoin que você só digitou 11 palavras por algum engano. Se você usar alguma outra carteira que não é sua nisso, sinceramente cara, eu não vou ter NADA a ver se você fazer isso, então já fica esperto"
-read -p "Insira onde está o seu arquivo contendo todas as palavras que podem ser usadas no tipo de seed phrase da sua wallet: " caminho
+read -p "Insira o caminho da sua wordlist BIP-39: " caminho
 echo "Atenção novamente: Quando sua carteira for encontrada, ela vai ser automaticamente logada na Electrum e a seed phrase dela irá aparecer. Insira as 11 palavras de sua seed phrase para continuar."
 read seedphrase11
 
